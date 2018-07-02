@@ -1,0 +1,16 @@
+{
+  "name": "css-to-jss",
+  "version": "1.0.1",
+  "description": "",
+  "main": "build/index.js",
+  "repository": "https://github.com/Rowan-Gudmundsson/css-to-jss.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d build"
+  },
+  "bin": {
+    "css-to-jss": "./build/index.js"
+  },
+  "author": "Rowan Gudmundsson",
+  "license": "ISC"
+}
